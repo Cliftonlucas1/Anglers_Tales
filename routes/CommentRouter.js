@@ -15,7 +15,7 @@ router.put(
   middleware.verifyToken,
   controller.UpdateComment
 )
-router.get('all/:post_id', controller.GetAllCommentsForPost)
+router.get('/all/:post_id', controller.GetAllCommentsForPost)
 router.delete(
   '/delete/:comment_id',
   middleware.stripToken,

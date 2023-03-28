@@ -67,10 +67,24 @@ const DeletePost = async (req, res) => {
   }
 }
 
+const UpdatePost = async (req, res) => {
+  try {
+    let postId = parseInt(req.params.post_id)
+    let updatePost = await Post.update(req.body, {
+      where: { id: postId },
+      returning: true
+    })
+    res.send(updatePost)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
   GetAllPosts,
   CreatePost,
   DeletePost,
   GetAllPostsForUser,
-  FindPostByPk
+  FindPostByPk,
+  UpdatePost
 }
