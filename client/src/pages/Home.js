@@ -8,9 +8,12 @@ const Home = ({ postList, getAllPosts }) => {
 
   return (
     <div>
-      <Car carList={carList} />
+      <div>
+        <h1 className="text-3xl font-bold underline text-center"></h1>
+      </div>
+      <Post postList={postList} />
       <div className="cool-post-logo">
-        <img src="https://www.freepnglogos.com/uploads/zent-logo-png-car-22.png" />
+        <img src="" />
       </div>
     </div>
   )
