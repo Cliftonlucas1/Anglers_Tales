@@ -53,56 +53,56 @@ const PostDetails = ({ user }) => {
   const publicOptions = <div></div>
   if (isLoaded) {
     return (
-      <div class="min-h-screen bg-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="py-12">
-            <h1 class="text-3xl font-bold text-gray-900 mb-4">
+      <div className="min-h-screen bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="py-12">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {postDetails.fishType} {postDetails.fishSpecies}
             </h1>
-            <div class="flex flex-col md:flex-row">
-              <div class="md:w-1/2 lg:w-1/3 mr-4 mb-4">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-1/2 lg:w-1/3 mr-4 mb-4">
                 <img
                   src={postDetails?.image}
                   alt="post"
-                  class="w-full h-64 object-cover rounded-lg shadow-md"
+                  className="w-full h-64 object-cover rounded-lg shadow-md"
                 />
-                <div class="bg-white p-6 rounded-lg shadow-md mt-4">
-                  <p class="text-gray-700 font-bold mb-2">
+                <div className="bg-white p-6 rounded-lg shadow-md mt-4">
+                  <p className="text-gray-700 font-bold mb-2">
                     User Name: {postDetails?.owner?.userName}
                   </p>
-                  <p class="text-gray-700 font-bold mb-2">
+                  <p className="text-gray-700 font-bold mb-2">
                     fishType: {postDetails?.fishType}
                   </p>
-                  <p class="text-gray-700 font-bold mb-2">
+                  <p className="text-gray-700 font-bold mb-2">
                     fishSpecies: {postDetails?.fishSpecies}
                   </p>
-                  <p class="text-gray-700 font-bold mb-2">
+                  <p className="text-gray-700 font-bold mb-2">
                     fishSize: {postDetails?.fishSize}
                   </p>
                 </div>
               </div>
-              <div class="md:w-1/2 lg:w-2/3 mt-4 md:mt-0">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-4">Comments</h3>
+              <div className="md:w-1/2 lg:w-2/3 mt-4 md:mt-0">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-xl font-bold mb-4">Comments</h3>
                   {postDetails.comments.map((comment) => (
-                    <div class="flex mb-4" key={comment.id}>
-                      <div class="mr-4">
-                        <div class="text-gray-700 font-bold mb-2">
+                    <div className="flex mb-4" key={comment.id}>
+                      <div className="mr-4">
+                        <div className="text-gray-700 font-bold mb-2">
                           {comment.post.userName}:
                         </div>
                       </div>
-                      <div class="flex-1">
-                        <p class="text-gray-700">{comment.content}</p>
+                      <div className="flex-1">
+                        <p className="text-gray-700">{comment.content}</p>
                         {user?.id === comment?.userId && (
-                          <div class="mt-2">
+                          <div className="mt-2">
                             <button
-                              class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded mr-2"
+                              className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded mr-2"
                               onClick={(e) => deleteComment(e, comment.id)}
                             >
                               Delete
                             </button>
                             <button
-                              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
+                              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
                               onClick={(e) => clicky(e, comment.id)}
                             >
                               Update
@@ -124,7 +124,7 @@ const PostDetails = ({ user }) => {
                   ))}
                   <div></div>
                 </div>
-                <div class="mt-4">{user ? userOptions : publicOptions}</div>
+                <div className="mt-4">{user ? userOptions : publicOptions}</div>
               </div>
             </div>
           </div>
