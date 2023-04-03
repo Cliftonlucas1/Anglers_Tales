@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import ReactSwitch from 'react-switch'
 
-const Header = ({ user, handleLogOut }) => {
+const Header = ({ user, handleLogOut, toggleTheme }) => {
   let userOptions
   if (user) {
     userOptions = (
       <div className="logoHomeAbout">
-        <p className="welcomemessage">Welcome {user.email}!</p>
+        <p className="welcomemessage">Welcome {user.userName}!</p>
         {/*  */}
 
 <div>
@@ -17,7 +18,7 @@ const Header = ({ user, handleLogOut }) => {
       <img src="https://www.nawpic.com/media/2020/fishing-nawpic-17-e1656881463575.jpg" class="h-8 mr-3" alt="Anglers Tales Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Anglers Tales</span>
   </a>
-  <p class="text-white" >Welcome {user.email}!</p>
+  <p class="text-white text-lg font-bold">Welcome {user.email}!</p>
   <div class="flex md:order-2">
       <button type="button" onClick={handleLogOut} to="/"  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign Out</button>
   </div>
@@ -34,6 +35,9 @@ const Header = ({ user, handleLogOut }) => {
       </li>
       <li>
         <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+      </li>
+      <li>
+      <ReactSwitch onChange={toggleTheme} />
       </li>
     </ul>
   </div>
