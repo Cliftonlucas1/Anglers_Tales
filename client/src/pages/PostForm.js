@@ -34,10 +34,10 @@ const PostForm = ({ user, getUsersPosts, userPostList }) => {
   }
 
   return (
-    <body className="body bg-white dark:bg-[#0F172A]">
-      <div className="bg-black before:animate-pulse before:bg-gradient-to-b before:from-gray-900 overflow-hidden before:via-[#00FF00] before:to-gray-900 before:absolute">
+    <body className="body bg-white ">
+      <div className="">
         <div id="myDIV">
-          <div className="w-[100vw] h-[100vh] px-3 sm:px-5 flex items-center justify-center absolute">
+          <div className="px-3 sm:px-5 flex items-center justify-center">
             <div className="w-full sm:w-1/2 lg:2/3 px-6 bg-gray-500 bg-opacity-20 bg-clip-padding backdrop-filter backdrop-blur-sm text-white z-50 py-4 rounded-lg ">
               <div className="w-full flex justify-center text-[#00FF00] text-xl mb-2 md:mb-5"></div>
 
