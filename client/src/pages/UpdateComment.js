@@ -39,12 +39,17 @@ const UpdateComment = ({ comment, getPostDetails, clicky, antiClicky }) => {
           value={updateComment.content}
         />
         <div className="center-submit">
-          <button className="submit-button" type="submit">
-            Submit
+          <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded submit-button"
+            type="submit"
+          >
+            Confirm Submit
           </button>
-          <button className="cancel-button" onClick={(e) => antiClicky(e)}>
-            {' '}
-            Cancel{' '}
+          <button
+            className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded cancel-button"
+            onClick={(e) => antiClicky(e)}
+          >
+            Cancel
           </button>
         </div>
       </form>

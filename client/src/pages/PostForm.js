@@ -34,7 +34,7 @@ const PostForm = ({ user, getUsersPosts, userPostList }) => {
   }
 
   return (
-    <body className="body bg-white ">
+    <body className="body bg-gray-100 ">
       <div className="">
         <div id="myDIV">
           <div className="px-3 sm:px-5 flex items-center justify-center">

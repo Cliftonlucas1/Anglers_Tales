@@ -23,9 +23,9 @@ const User = ({ user, userPostList, getUsersPosts }) => {
   return (
     <div class="bg-gray-100">
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div class="max-w-3xl mx-auto space-y-8">
+        <div class="max-w-3xl mx-auto space-y-8 ">
           <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-gray-900">
-            Your Collection
+            Fishing Log
           </h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {userPostList.map((post) => (
