@@ -25,7 +25,7 @@ const App = () => {
   const [userPostList, setUserPostList] = useState([])
   //
   const [user, setUser] = useState(null)
-
+  //
   const [postList, setPostList] = useState([])
 
   const [comments, setComments] = useState([])
