@@ -21,7 +21,7 @@ export const ThemeContext = createContext('null')
 
 const App = () => {
   const [theme, setTheme] = useState('light')
-  //
+
   const [userPostList, setUserPostList] = useState([])
   //
   const [user, setUser] = useState(null)
