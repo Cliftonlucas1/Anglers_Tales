@@ -44,37 +44,6 @@ const Header = ({ user, handleLogOut, toggleTheme }) => {
   </div>
 </nav>
 
-
-
-{/* 
-        <div className="Nav">
-          <Link to="/PostForm" className="homeLink" >
-            PostForm
-
-          
-          </Link>
-        </div> */}
-        {/*  */}
-        {/* <div className="Nav">
-          <Link to="/" className="homeLink">
-            Home
-          </Link>
-        </div> */}
-        {/* <div className="Nav">
-          <Link to="/User" className="homeLink">
-            My Page
-          </Link>
-        </div> */}
-        {/* <div className="Nav">
-          <Link to="/UserSettings" className="UserSettings">
-            User Settings
-          </Link>
-        </div> */}
-        {/* <div className="Nav">
-          <Link onClick={handleLogOut} to="/">
-            Sign Out
-          </Link>
-        </div> */}
       </div>
       </div>
     )
