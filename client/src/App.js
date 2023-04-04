@@ -18,7 +18,7 @@ import PostForm from './pages/PostForm'
 import ReactSwitch from 'react-switch'
 
 export const ThemeContext = createContext('null')
-//
+
 const App = () => {
   const [theme, setTheme] = useState('light')
   //
