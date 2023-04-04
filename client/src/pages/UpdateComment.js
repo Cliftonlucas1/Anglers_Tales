@@ -25,7 +25,7 @@ const UpdateComment = ({ comment, getPostDetails, clicky, antiClicky }) => {
     getPostDetails()
     clicky()
   }
-  //
+
   return (
     <div className="comment-form-container">
       <form onSubmit={handleSubmitUpdate} className="comment-form">
