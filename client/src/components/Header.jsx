@@ -81,21 +81,6 @@ const Header = ({ user, handleLogOut, toggleTheme }) => {
   </div>
   </div>
 </nav>
-
-
-      {/* <div className="Nav">
-        <Link to="/" className="homeLink">
-          Home
-        </Link>
-      </div>
-      <div className="Nav">
-        <Link to="/register" className="registerNav">
-          Register
-        </Link>
-      </div>
-      <div className="Nav">
-        <Link to="/signin">Sign In</Link>
-      </div> */}
     </div>
   )
 
