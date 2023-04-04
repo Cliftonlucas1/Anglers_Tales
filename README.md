@@ -48,7 +48,7 @@
 
 ### ![POST]()
 
-###### About Page ![About Page]()
+###### About Page ![About Page](/images/pic2.png)
 
 ### **_Future Updates_**
 
