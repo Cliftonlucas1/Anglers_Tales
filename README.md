@@ -44,7 +44,7 @@
 
 ###### Home
 
-### ![Home Page]()
+### ![Home Page](/images/pic1.png)
 
 ### ![POST]()
 
