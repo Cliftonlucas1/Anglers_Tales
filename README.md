@@ -36,11 +36,11 @@
 
 ###### ERD
 
-### ![ERD](ERD.png)
+### ![ERD](/images/ERD.png)
 
 ###### Hiercarchy Diagram
 
-### ![Hierarchy Diagram](HiercarchyDiagram.png)
+### ![Hierarchy Diagram](/images/Diagram.png)
 
 ###### Home
 
