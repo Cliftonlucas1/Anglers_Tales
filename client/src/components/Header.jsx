@@ -81,6 +81,8 @@ const Header = ({ user, handleLogOut, toggleTheme }) => {
   </div>
   </div>
 </nav>
+
+
     </div>
   )
 

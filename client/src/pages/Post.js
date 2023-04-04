@@ -5,7 +5,10 @@ const Post = ({ postList }) => {
     <div className="flex flex-wrap">
       {postList &&
         postList.map((posts, index) => (
-          <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={posts.id}>
+          <div
+            className="w-full md:w-1/2 lg:w-1/3 p-2 text-lg mb-8 "
+            key={posts.id}
+          >
             <div className="bg-white rounded shadow">
               <Link to={`/PostDetails/${posts.id}`}>
                 <img
@@ -15,7 +18,7 @@ const Post = ({ postList }) => {
                 />
               </Link>
               <div className="p-4">
-                <p className="text-lg font-semibold mb-2">
+                <p className="text-lg text-black font-semibold mb-2">
                   {posts.fishType} {posts.fishSpecies} {posts.fishSize}
                 </p>
               </div>

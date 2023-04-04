@@ -21,7 +21,7 @@ const User = ({ user, userPostList, getUsersPosts }) => {
   }, [user])
 
   return (
-    <div class="bg-gray-100">
+    <div class="bg-white-100">
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div class="max-w-3xl mx-auto space-y-8 ">
           <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-gray-900">

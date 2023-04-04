@@ -54,9 +54,9 @@ const PostDetails = ({ user }) => {
   if (isLoaded) {
     return (
       <div className="min-h-screen bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="py-12">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4 ">
               {postDetails.fishType} {postDetails.fishSpecies}
             </h1>
             <div className="flex flex-col md:flex-row">
@@ -66,8 +66,8 @@ const PostDetails = ({ user }) => {
                   alt="post"
                   className="w-full h-64 object-cover rounded-lg shadow-md"
                 />
-                <div className="bg-white p-6 rounded-lg shadow-md mt-4">
-                  <p className="text-gray-700 font-bold mb-2">
+                <div className="bg-white p-6 rounded-lg shadow-md mt-4 ">
+                  <p className=" font-bold mb-2 ">
                     User Name: {postDetails?.owner?.userName}
                   </p>
                   <p className="text-gray-700 font-bold mb-2">

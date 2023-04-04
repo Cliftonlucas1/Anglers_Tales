@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <div className="bg-gray-100">
-      <div className="container mx-auto px-4 py-12">
+    <div className="bg-white-100">
+      <div className="container mx-auto px-4 py-12 ">
         <h1 className="text-4xl font-bold mb-4"> About Page</h1>
         <h3 className="text-lg mb-8">
           Welcome to the "About" page for Anglers Tales! We are a community of
           fishing enthusiasts who love to share our experiences, tips, and
           stories with fellow anglers from around the world.
         </h3>
-        <p className="text-gray-700 leading-7 mb-8">
+        <p className="text-lg mb-8 leading-7 mb-8">
           Our platform is designed to connect anglers of all skill levels and
           interests, whether you're a seasoned pro or just starting out. We
           provide a variety of features and tools to help you make the most of
@@ -24,7 +24,7 @@ const About = () => {
           and equipment. A blog with articles and videos on a variety of topics
           related to fishing, including techniques, conservation, and more.
         </p>
-        <p className="text-gray-700 leading-7">
+        <p className="text-lg mb-8 leading-7">
           Our mission is to create a welcoming and inclusive community for all
           anglers, regardless of their background, experience, or interests. We
           believe that fishing is not just a hobby, but a way of life that
