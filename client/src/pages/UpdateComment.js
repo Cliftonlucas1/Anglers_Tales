@@ -56,5 +56,5 @@ const UpdateComment = ({ comment, getPostDetails, clicky, antiClicky }) => {
     </div>
   )
 }
-
+//
 export default UpdateComment
