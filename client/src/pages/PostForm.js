@@ -27,6 +27,7 @@ const PostForm = ({ user, getUsersPosts, userPostList }) => {
     setFormState(initialState)
     getUsersPosts()
     setShowForm(false)
+    //
   }
 
   const handleShowForm = () => {
