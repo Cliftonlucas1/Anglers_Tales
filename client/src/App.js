@@ -29,7 +29,7 @@ const App = () => {
   const [postList, setPostList] = useState([])
 
   const [comments, setComments] = useState([])
-  //
+
   const handleLogOut = () => {
     setUser(null)
 
