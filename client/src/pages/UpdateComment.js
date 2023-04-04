@@ -8,7 +8,7 @@ const UpdateComment = ({ comment, getPostDetails, clicky, antiClicky }) => {
     content: ''
   })
   console.log(comment)
-
+  //
   const handleChangeUpdate = (event) => {
     setUpdateComment({
       ...updateComment,
