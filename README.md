@@ -2,7 +2,7 @@
 
 ####
 
-![AnglersTales!](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.O6VzX1R4TMcFIjhumsmj3gHaFS%26pid%3DApi&f=1&ipt=33a20b261d4b7568bd3168bae1927d723d709cefef1b71b48718a5a18d04729f&ipo=images)
+![AnglersTales!](https://www.nawpic.com/media/2020/fishing-nawpic-17-e1656881463575.jpg)
 
 # SHOW YOUR BEST CATCH AND STORIES
 
