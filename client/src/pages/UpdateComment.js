@@ -15,7 +15,7 @@ const UpdateComment = ({ comment, getPostDetails, clicky, antiClicky }) => {
       [event.target.id]: event.target.value
     })
   }
-  //
+
   const handleSubmitUpdate = async (event) => {
     event.preventDefault()
     await Client.put(
